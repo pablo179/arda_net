@@ -1,0 +1,9 @@
+import styles from './colorSquare.module.css';
+
+export default function ColorSquare({ color }) {
+    return (
+        <div className={styles.colorSquare} style={{ backgroundColor: color }}>
+            {color}
+        </div>
+    );
+}
