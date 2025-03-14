@@ -1,0 +1,30 @@
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.oneLogo {
+    width: 300px;
+    height: auto;
+    margin: 0 auto 0 0;
+}
+
+.introImg {
+    width: 100%;
+    height: auto;
+}
+
+.quote {
+    font-size: 2.5em;
+    font-style: italic;
+    font-weight: bold;
+    text-align: right;
+    padding: 20px;
+}
+
+.quote p {
+    width: 60%;
+    margin: 0 0 0 auto;
+}
